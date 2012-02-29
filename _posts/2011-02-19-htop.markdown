@@ -1,0 +1,50 @@
+---
+date: '2011-02-19 18:23:33'
+layout: post
+slug: htop
+status: publish
+title: htop
+wordpress_id: '185'
+categories:
+- apple
+- mac
+- technology
+---
+
+"In most Unix-like operating systems, the top command is a system monitor tool that produces a frequently-updated list of processes."  --[wikipedia](http://en.wikipedia.org/wiki/Top_(software))
+
+Syntax
+
+$ top #launch
+
+$ top --help #for instructions
+
+"Htop is an interactive system-monitor process-viewer written for Linux. It is designed to replace the Unix program top."--[wikipedia](http://en.wikipedia.org/wiki/Htop)
+
+To install htop on mac download and install git from this site
+
+[http://code.google.com/p/git-osx-installer/](http://code.google.com/p/git-osx-installer/)
+
+and then:
+
+$ git clone git://github.com/AndyA/htop-osx.git
+
+Building this under Snow Leopard requires you to checkout the 'osx' branch:
+
+$ git checkout -b osx origin/osx
+
+and set your 'CFLAGS' environmental variable to specify a 32-bit build:
+
+$ export CFLAGS="-m32"
+
+before the actual build:
+
+$ ./autogen.sh
+
+$ ./configure
+
+$ make
+
+$ make install
+
+instructions via: [http://jeetworks.org/node/60](http://jeetworks.org/node/60)

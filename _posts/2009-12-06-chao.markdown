@@ -1,0 +1,23 @@
+---
+date: '2009-12-06 20:09:00'
+layout: post
+slug: chao
+status: publish
+title: Chao
+wordpress_id: '106'
+categories:
+- apple
+- free
+- mac
+- technology
+---
+
+[![](http://4.bp.blogspot.com/_BQ0a8k-GX20/Sxu8ne4NSZI/AAAAAAAADKk/KRiOhxEzm9A/s400/LogOff.png)](http://4.bp.blogspot.com/_BQ0a8k-GX20/Sxu8ne4NSZI/AAAAAAAADKk/KRiOhxEzm9A/s1600-h/LogOff.png)
+
+Check out the new Mac app Chao
+
+It activates the screen saver and announces it. It feels very cool when I log off my comp. I use it in conduction with [spark](http://mac.softpedia.com/get/System-Utilities/Spark.shtml), which allows me to launch it with a keyboard shortcut. You can download Chao vr 1.0 from 
+
+[http://files.me.com/shubhamgoel/kn0s55](http://files.me.com/shubhamgoel/kn0s55)
+
+and I would be happy to hear your feedback and suggestions.

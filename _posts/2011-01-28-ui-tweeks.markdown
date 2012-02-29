@@ -1,0 +1,10 @@
+---
+date: '2011-01-28 23:41:10'
+layout: post
+slug: ui-tweeks
+status: publish
+title: UI Tweeks
+wordpress_id: '157'
+---
+
+The chrome status bar shift down with the cursor if there is a link near the bottom of the page.

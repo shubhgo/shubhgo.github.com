@@ -1,0 +1,26 @@
+---
+date: '2008-04-10 02:41:00'
+layout: post
+slug: iphone
+status: publish
+title: iPhone
+wordpress_id: '19'
+---
+
+[![](http://2.bp.blogspot.com/_BQ0a8k-GX20/R_2nW0YHeoI/AAAAAAAABAw/zbMR0HHvP20/s320/iPhone+010.jpg)](http://2.bp.blogspot.com/_BQ0a8k-GX20/R_2nW0YHeoI/AAAAAAAABAw/zbMR0HHvP20/s1600-h/iPhone+010.jpg)  
+My requests to Steveeeee….  
+First of all its a great phone or calling it that should be an crime punishable by law. It is the perfect blend of hardware and software the computer and the cell phone industry has seen in a long time, especially with Nokia trying to drag on its Series 60 OS on huge bricks which are heavy, bulky and expensive. After the launch of the phone the industry has seen all the other companies shake on their legs and produce new revolutionary prototypes. Even though is forced innovation its better for the customer.  
+My feature wishlist  
+•I would love to see landscape mode support for all the major apps that support typing like notes, SMS and most importantly mail. The landscape keyboard is really much more convenient and easy to use. It gives you a lot more screen estate and bigger keys lead to better accuracy. It is simple mathematics really.  
+•In addition handwriting recognition wouldn’t break my heart. I was seeing videos of Apple Newton Messenger pad 2100 the other day and it has great handwriting recognition software. It would also solve the major problem of copy paste text on the iPhone, which again is a feature on my wish list  
+•Settings to define sound alerts for applications like calendar. I mean it wouldn't hurt me if once in a while I am able to keep my word and turn up at the right place at the place and the iPhone has something to do with it.  
+•A more versatile Bluetooth. The Bluetooth on iPhone gives very limited functionality. It only allows one to connect to Bluetooth headsets which frankly I don't use a lot. I remember on my Nokia I really used some of the Bluetooth dependent features a lot, like wirelessly syncing my phone with the pc and file transfer. Wireless sync is very cool as the moment you walk into your room BOOM your contacts notes and other stuff is synchronized, especially through Bluetooth as compared to Wi-Fi as it’s lighter on the battery. But I hope Exchange server support in the future will help overcome this problem as it would remotely sync the essential stuff at least automatically.  
+•Talking of Sync I believe iPhone really needs some more apps from Apple to make it a complete smart phone. Like ToDo which could then be synchronized with Exchange services. Similarly Notes should also have exchange and sync support too. Another app it needs is a mini office suite or at least the ability to leave comments on pages while reviewing a file. Also the ability to store and view files from the iPhone HD and not from the mail menu which I have been doing. It’s great that people at Cupertino have finally decided to add a presentation viewer.  
+•Update: The new iPhone SDK is very cool especially the application interface builder and the built resource usage tester. I haven’t had a chance to actually try it as I am still waiting for my Mac book Pro but have seen tons of guides and videos. Plus I have been reading people giving it great feedback especially not so popular tech reporters  
+•Some of the applications I would like to see after V2.0 is launched apart from the above mentioned stuff  
+ -A program to store my credit card information and password protect it.  
+ -A simple photo editing software just for fun.  
+ -A photo library uploading option to upload multiple picture to services like picasa and flickr.  
+I know…..some of them already exist through third party hacks but they are not commercial apps and in general lack professionalism sometime…no offence to third party developers…you guy have saved my life on more occasions than I can remember.  
+  
+Sent form my iPhone

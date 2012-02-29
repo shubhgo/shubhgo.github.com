@@ -1,0 +1,16 @@
+---
+date: '2009-10-24 07:28:00'
+layout: post
+slug: ubiquity
+status: publish
+title: Ubiquity
+wordpress_id: '105'
+categories:
+- internet
+- Me
+- technology
+---
+
+[![](http://3.bp.blogspot.com/_BQ0a8k-GX20/SuJZQqXATrI/AAAAAAAADGQ/7EsQMLxrw74/s400/ubiquity-header.png)](http://3.bp.blogspot.com/_BQ0a8k-GX20/SuJZQqXATrI/AAAAAAAADGQ/7EsQMLxrw74/s1600-h/ubiquity-header.png)[Ubiquity](http://labs.mozilla.com/ubiquity/) is the coolest firefox plugin yet. It allows you to give commands to firefox in normal english to look for directions, update twitter, insert maps in mails and much much more.  
+  
+[![](http://2.bp.blogspot.com/_BQ0a8k-GX20/SuJaoTAkDlI/AAAAAAAADGg/rVyJASB9R-k/s400/definrbot+copy+copy.png)](http://2.bp.blogspot.com/_BQ0a8k-GX20/SuJaoTAkDlI/AAAAAAAADGg/rVyJASB9R-k/s1600-h/definrbot+copy+copy.png)I also wrote a small plugin for ubiquity which allows you to look up words at [Definr.com](http://www.definr.com/), my favorite dictionary site. You can get it here: [http://gist.github.com/217297](http://gist.github.com/217297)
