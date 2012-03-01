@@ -11,6 +11,7 @@ pygments: true
 #
 title : goel's lab
 tagline: 
+asset : /assets/themes/goels-lab
 author :
   name : Shubham Goel
   email : hello@whatanapp.com

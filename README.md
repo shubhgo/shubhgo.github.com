@@ -2,7 +2,7 @@
 
 ## TODO
 - Feedburner integrate and add to _config.yaml
-
+- fix the asset_path issue in index.html
 
 
 # Jekyll-Bootstrap
