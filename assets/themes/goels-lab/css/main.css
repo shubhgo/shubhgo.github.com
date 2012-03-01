@@ -7,6 +7,54 @@ body {
   width: 720px;
 
 }
+body > header {
+	text-align: right;
+  width: 720px;
+  font: 26px 'Myriad Pro', Arial, sans-serif;
+  margin-bottom: 100px;
+}
+body > header a {
+  color: #ddd;
+  border: 0;
+}
+body > header:hover a {
+  color: black;
+  border-bottom: 1px dotted #bbb; }
+body > header a:hover {
+  color: #b83000;
+}
+body > header li {
+  display: inline;
+  margin: 0 15px;
+}
+body > header ul {
+  margin: 0;
+  padding: 0;
+}
+body > header > span {
+  float: left;
+}
+#feed-icon {
+  border: 0;
+  margin-right: 5px;
+}
+#feed-icon img {
+  margin-top: -5px;
+}
+#home {
+  margin: 0;
+  padding: 0;
+}
+#home > section {
+  min-width: 720px;
+  position: absolute;
+  margin: 0;
+  bottom: 0;
+  padding: 0;
+  height: 800px;
+  width: 960px;
+  background: url(/images/cloudhead.png) no-repeat scroll 30px bottom;
+}
 .profiles > header, .markdown h1 {
   text-align: left;
 	display: block;
@@ -199,9 +247,13 @@ body > footer {
   text-align: center;
   color: #bbb;
   line-height: 26px;
-  position: fixed;
   bottom: 30px;
   font-size: 14px;
+  position: static;
+}
+#landing {
+	position: fixed;
+	width: 720px;
 }
 body > footer p {
   margin: 0;
