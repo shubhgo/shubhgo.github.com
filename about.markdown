@@ -3,8 +3,7 @@ date: '2010-12-29 16:40:47'
 layout: page
 slug: about
 status: publish
-title: About
-wordpress_id: '2'
+title: about
 ---
 
 
