@@ -10,6 +10,7 @@ Shubham Goel is a hard core products guy. He has a B.Tech and Masters degree in 
 He believes in multiplicity of work areas and the strength of inter-disciplinary collaboration. He pretends to be a master [photographer](http://www.canon.co.uk/for_home/product_finder/cameras/digital_slr/EOS_500D/) and [skater](http://www.k2skates.com/inline-skates/il-capo) by carrying around the respective equipments.
 
 - [hire me](mailto:{{ site.author.email }})
+- [portfolio](http://whatanapp.com/shubhamgoel)
 - [twitter](http://twitter.com/{{ site.author.twitter }})
 - [github](http://github.com/{{ site.author.github }})
 
