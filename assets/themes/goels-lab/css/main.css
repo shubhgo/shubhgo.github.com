@@ -53,7 +53,7 @@ body > header > span {
   padding: 0;
   height: 800px;
   width: 960px;
-  background: url(/images/cloudhead.png) no-repeat scroll 30px bottom;
+  background: url(/assets/images/launch_screen_main.jpg) no-repeat scroll 30px bottom;
 }
 .profiles > header, .markdown h1 {
   text-align: left;
