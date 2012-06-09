@@ -70,9 +70,9 @@ h1, h2, h3, h4 {
   margin: 0;
   font-weight: normal;
 }
-ul, li {
+/*ul, li {
   list-style-type: none;
-}
+}*/
 code {
   color: #661111;
   font-family: 'Bitstream Vera Sans Mono', 'DejaVu Sans Mono', 'Monaco', Courier, monospace;
