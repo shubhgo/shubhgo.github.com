@@ -6,7 +6,7 @@ tags: []
 ---
 {% include JB/setup %}
 ##Problem
-- Need a micro sim card
+1. Need a micro sim card
 - With 3G connectivity
 - Without a social security number (I don't work in the US, so I don't have one)
 - should work with a iPhone4/4S
@@ -21,7 +21,7 @@ This post on [Cocoanetics](http://www.cocoanetics.com/2011/05/iphone-3g-data-usa
 
 Some nuances:
 
-- They might not have a micro sim card, in which case you can buy one from ebay or buy a regular sim and cut it.
+1. They might not have a micro sim card, in which case you can buy one from ebay or buy a regular sim and cut it.
 - The default plan may include some data with it. This is edge (slooooooow) connectivity. So you will end up buying a data plan separately.
 - The store people might tell you that data won't work on a smart phone. Its only for a feature phone. You can tell them that you are OK with taking the risk and that you won't need their help with getting the data to work.
 - Data does not work after putting the sim in. Make sure that you have installed the APN changing profile from [www.unlockit.co.nz](http://www.unlockit.co.nz/)
