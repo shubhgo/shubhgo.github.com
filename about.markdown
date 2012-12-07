@@ -20,4 +20,5 @@ He believes in multiplicity of work areas and the strength of inter-disciplinary
 - [portfolio](http://whatanapp.com/shubhamgoel)
 - [twitter](http://twitter.com/{{ site.author.twitter }})
 - [github](http://github.com/{{ site.author.github }})
-- [favwork](http://favwork.com/shubhamgoel) ( [send me a dribbble invite](http://dribbble.com/shubhamgoel) )
+- [favwork: graphic design](http://favwork.com/shubhamgoel) ( [send the desperate man a  dribbble invite](http://dribbble.com/shubhamgoel) )
+- [500px](http://500px.com/shubhamgoel)
