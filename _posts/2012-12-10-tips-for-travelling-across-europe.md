@@ -6,7 +6,6 @@ tags: []
 ---
 {% include JB/setup %}
 
-#Tips For Traveling Across Europe
 I traveled to Germany, Austria, Hungary, and the Czech Republic in the summer of 2011. For most of the trip, I traveled with a friend who, like me, was visiting these countries for the first time. We occasionally met up with cool locals who showed us around.
 
 Here are some tips from our experience. Keep in mind that these tips are written from the perspective of an Indian traveler.
