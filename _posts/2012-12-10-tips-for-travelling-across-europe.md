@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Tips For Travelling Across Europe"
+title: "Tips For Traveling Across Europe"
 category: 
 tags: []
 ---
