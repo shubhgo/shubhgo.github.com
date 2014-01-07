@@ -7,7 +7,7 @@ title: IITians design anti-derailment device
 wordpress_id: '284'
 ---
 
-UPDATE:[14th Nov, 2011] The device got covered again! This time by the prestigious economic times.
+UPDATE: \[14th Nov, 2011\] The device got covered again! This time by the prestigious economic times.
 
 [http://economictimes.indiatimes.com/news/news-by-industry/et-cetera/tiny-device-from-iit-kanpur-can-prevent-derailment/articleshow/10726873.cms](http://economictimes.indiatimes.com/news/news-by-industry/et-cetera/tiny-device-from-iit-kanpur-can-prevent-derailment/articleshow/10726873.cms)
 
