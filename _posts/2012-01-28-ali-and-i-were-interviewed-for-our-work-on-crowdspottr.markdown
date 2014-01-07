@@ -15,14 +15,14 @@ Article from YourStory:
 
 _“You may be one of the chosen lucky bastards, who will spend 4 weeks with us and participate in our magnificant App Campus in Europe!”_
 
-__This online ad attracted the mobile developers Shubham Goel from Lucknow and Ali Hafizji from Pune early this year to apply for this event called [Pangalaktik App Camp:us](http://campus.carnationgroup.com/), an exciting 4 week-long digital product development event, organized by one of Central Europe’s funkiest digital agency, [Carnation Group](http://www.carnationgroup.com/). Their idea was to bring some of the most creative talents from all over the world together to develop an outstanding app within four weeks. So Carnation was scouting for outstanding visual designers, geeky web developers, Android Ninjas and iOS Gurus and got a fantastic team with genuine people from Hungary, Russia, Korea, Poland, Estonia and of course India, represented by Ali and Shubham. So all of them came down to Hungary, to spend their summer hacking, designing and developing a great product called [Crowdspottr](http://www.crowdspottr.com/).
+This online ad attracted the mobile developers Shubham Goel from Lucknow and Ali Hafizji from Pune early this year to apply for this event called [Pangalaktik App Camp:us](http://campus.carnationgroup.com/), an exciting 4 week-long digital product development event, organized by one of Central Europe’s funkiest digital agency, [Carnation Group](http://www.carnationgroup.com/). Their idea was to bring some of the most creative talents from all over the world together to develop an outstanding app within four weeks. So Carnation was scouting for outstanding visual designers, geeky web developers, Android Ninjas and iOS Gurus and got a fantastic team with genuine people from Hungary, Russia, Korea, Poland, Estonia and of course India, represented by Ali and Shubham. So all of them came down to Hungary, to spend their summer hacking, designing and developing a great product called [Crowdspottr](http://www.crowdspottr.com/).
 
 **Don’t know where to go and whom with? Discover what your friends are up to!**
 Crowdspottr is a personalized event planning app, using the data and check ins from Facebook and Foursquare to identify the best places to hang out. We asked Ali and Shubham to tell us more about their product and their awesome experience in Europe.
 
 **Give 3 tags to describe Crowdspottr!**
 
-****Events, places, friends
+Events, places, friends
 
 **Fine, so how does the app work?**
 
@@ -50,20 +50,21 @@ Right now the focus is only in building a user base. We believe the product is r
 
 **How did this project actually happen for you?**
 
-**[![](http://yourstory.in/wp-content/uploads/2011/09/crowdspottr_ali.jpg)](http://yourstory.in/wp-content/uploads/2011/09/crowdspottr_ali.jpg)**
+![](http://yourstory.in/wp-content/uploads/2011/09/crowdspottr_ali.jpg)
 
 We both (independently) applied online for the camp. The application form had some really funky questions like “Given a chance what kind of a Super hero would you be – you cant choose an existing one” etc. After submitting our form, we got a call from Andras the project Manager from Carnation. He asked us some general questions about mobile development and in the next call that we received he said that we have been selected. A few more days and we received our plane tickets and the journey started.
 
-**Tell us more about your experience at the app Camp:us
-**
+**Tell us more about your experience at the app Camp:us**
 
 The camp:us bought together an interesting group of people all of whom were not beginners in their areas of expertise. We all worked together in a team of 10, there was no need for any sort of team management we just magically gelled together. Everyone was very open to new ideas and the best part was that all of us were extremely motivated to make something awesome during this short period.
 
-**Give us some more fact and figures! **
+**Give us some more fact and figures!**
 
-10 people, 6 different countries, 4 crazy weekend outings, more than 2700 challenge hours together; 9,318 lines of code (iOS)*, 290 energy drinks; 2 mobile applications in beta state, 2 website alive, 2 promo videos
+10 people, 6 different countries, 4 crazy weekend outings, more than 2700 challenge hours together, 9,318 lines of code (iOS), 290 energy drinks, 2 mobile applications in beta state, 2 website alive, 2 promo videos
 
-**[![](http://yourstory.in/wp-content/uploads/2011/09/crowdspottr_shubhamgoel.jpg)](http://yourstory.in/wp-content/uploads/2011/09/crowdspottr_shubhamgoel.jpg)Share you most amazing experience from these 4 weeks**
+![](http://yourstory.in/wp-content/uploads/2011/09/crowdspottr_shubhamgoel.jpg)
+
+**Share you most amazing experience from these 4 weeks**
 
 The most amazing experience, hmm!! That’s difficult since every moment was really awesome. But I think all of us had a lot of fun at Balaton Sound. We left for the festival at around 2am and we came back to the camp the next day at 9 or 10 in the morning. It was one hell of a ride.
 

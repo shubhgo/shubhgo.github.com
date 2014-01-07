@@ -1,4 +1,4 @@
----
+'---
 date: '2008-10-06 21:56:00'
 layout: post
 slug: new-skates-for-the-club
@@ -11,9 +11,7 @@ categories:
 - YES plus
 ---
 
-[  
-  
-](http://1.bp.blogspot.com/_BQ0a8k-GX20/SOo_t-0d8ZI/AAAAAAAABTs/2469R9SEKGc/s1600-h/IMG_0065.JPG)![](http://1.bp.blogspot.com/_BQ0a8k-GX20/SOo_t-0d8ZI/AAAAAAAABTs/2469R9SEKGc/s400/IMG_0065.JPG)
+![](http://1.bp.blogspot.com/_BQ0a8k-GX20/SOo_t-0d8ZI/AAAAAAAABTs/2469R9SEKGc/s400/IMG_0065.JPG)
 
 slalom race on the wet rink: it was awesome, watching us skate the crowd went nuts..  
 

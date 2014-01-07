@@ -7,11 +7,8 @@ title: Sleeping your way to success
 wordpress_id: '67'
 ---
 
-[![](http://4.bp.blogspot.com/_BQ0a8k-GX20/SUQf6Bh9WyI/AAAAAAAACBs/KuCeKvQBLOc/s400/Photo+89.jpg)](http://4.bp.blogspot.com/_BQ0a8k-GX20/SUQf6Bh9WyI/AAAAAAAACBs/KuCeKvQBLOc/s1600-h/Photo+89.jpg)[
-
-Save as Draft
-
-](javascript:void(0))Working hard....  
+![](http://4.bp.blogspot.com/_BQ0a8k-GX20/SUQf6Bh9WyI/AAAAAAAACBs/KuCeKvQBLOc/s400/Photo+89.jpg)
+Working hard....  
 
 
 My secret mantra for success has now also been proved by research.  

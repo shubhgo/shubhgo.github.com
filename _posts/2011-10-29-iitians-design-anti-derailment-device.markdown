@@ -15,9 +15,9 @@ UPDATE:[14th Nov, 2011] The device got covered again! This time by the prestigio
 
 VIA: [http://www.tribuneindia.com/2011/20111029/nation.htm#2](http://www.tribuneindia.com/2011/20111029/nation.htm#2)
 
-MOMS the track health monitoring system built by us at IITK got covered by The Tribune India. Here is the full length article. To read more about the gadget go to [http://momsiitk.wordpress.com/moms/](http://momsiitk.wordpress.com/moms/) or write to [Kshitij Deo](mailto: kshdeo@gmail.com) the guy behind it all.
+MOMS the track health monitoring system built by us at IITK got covered by The Tribune India. Here is the full length article. To read more about the gadget go to [http://momsiitk.wordpress.com/moms/](http://momsiitk.wordpress.com/moms/) or write to [Kshitij Deo](mailto:kshdeo@gmail.com) the guy behind it all.
 
-[![](http://shubhamgoel.info/wp-content/uploads/2011/10/screen-shot-2011-02-13-at-9-47-38-pm.png)](http://shubhamgoel.info/wp-content/uploads/2011/10/screen-shot-2011-02-13-at-9-47-38-pm.png)
+![](http://shubhamgoel.info/wp-content/uploads/2011/10/screen-shot-2011-02-13-at-9-47-38-pm.png)
 
 New Delhi, October 28
 
