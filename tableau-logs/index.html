@@ -26,6 +26,37 @@
 
 </style>
 <body>
+<select id='levels'>
+  <option value=1>Level 1</option>
+  <option value=2>Level 2</option>
+  <option value=3>Level 3</option>
+</select>
+<select id='assignment'>
+<option value="ass1-anna-activities">Ass1: Anna</option> 
+<option value="ass1-cameron-1-activities">Ass1: Cameron 1</option> 
+<option value="ass1-cameron-2-activities">Ass1: Cameron 2</option> 
+<option value="ass1-hassan-activities">Ass1: Hassan </option> 
+<option value="ass1-ian-activities">Ass1: Ian</option> 
+<option value="ass1-jenny-activities">Ass1: Jenny</option> 
+<option value="ass1-renu-activities">Ass1: Renu</option> 
+<option value="ass1-sara-activities">Ass1: Sara</option> 
+<option value="ass1-shaun-activities">Ass1: Shaun</option> 
+<option value="ass1-shubham-activities">Ass1: Shubham</option> 
+<option value="ass1-sophia-activities">Ass1: Sophia</option> 
+<option value="ass1-taek-activities">Ass1: Taek</option> 
+<option value="ass2-anna-cameron-activities">Ass2: Anna</option> 
+<option value="ass2-hassan-shubham-activities">Ass2: Hassan</option> 
+<option value="ass2-ian-xavier-activities">Ass2: Ian-Xavier</option>
+<!--<option value="ass2-pablo-sophia-activities">Ass2: Pablo-Sophia</option> -->
+<option value="ass2-shubham-hassan-activities">Ass2: Shubham-Hassan</option> 
+<option value="ass2-taek-shaun-activities">Ass2: Teak-Shaun</option> 
+<option value="ass3-cameron-anna-activities">Ass3: Cameron-Anna</option> 
+<option value="ass3-shaun-taek-activities">Ass3: Shaun-Taek</option> 
+<option value="ass3-shubham-hassan-activities">Ass3: Shubham-Hassan</option> 
+<option value="ass3-sophia-pablo-activities">Ass3: Sophia-Pablo</option> 
+<option value="ass3-xavier-ian-activities">Ass3: Xavier-Ian</option></select>
+<button type="button" onclick="reloadData()">Load</button>
+<div id="viz"></div>
 <script src="http://d3js.org/d3.v3.min.js"></script>
 <script>
 
@@ -47,13 +78,14 @@ var edge_weight = d3.scale.linear()
 var diagonal = d3.svg.diagonal()
     .projection(function(d) { return [d.y, d.x]; });
 
-var svg = d3.select("body").append("svg")
+var svg = d3.select("div#viz").append("svg")
     .attr("width", width + margin.right + margin.left)
     .attr("height", height + margin.top + margin.bottom)
   .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-d3.json("grams_full.json", function(error, flare) {
+d3.json("assignment/ass1-anna-activities-level-1.json", function(error, flare) {
+  edge_weight.domain([0,flare.size]);
   root = flare;
   root.x0 = height / 2;
   root.y0 = 0;
@@ -189,7 +221,6 @@ function reloadData(){
 //	console.log(document.getElementById("assignment").selectedIndex);
 
 	d3.json(file_name, function(error, flare) {
-	console.log(flare);
 	edge_weight.domain([0,flare.size]);
 	  root = flare;
 	  root.x0 = height / 2;
@@ -209,36 +240,6 @@ function reloadData(){
 	
 }
 </script>
-<select id='levels'>
-  <option value=1>Level 1</option>
-  <option value=2>Level 2</option>
-  <option value=3>Level 3</option>
-</select>
-<select id='assignment'>
-<option value="ass1-anna-activities">Ass1: Anna</option> 
-<option value="ass1-cameron-1-activities">Ass1: Cameron 1</option> 
-<option value="ass1-cameron-2-activities">Ass1: Cameron 2</option> 
-<option value="ass1-hassan-activities">Ass1: Hassan </option> 
-<option value="ass1-ian-activities">Ass1: Ian</option> 
-<option value="ass1-jenny-activities">Ass1: Jenny</option> 
-<option value="ass1-renu-activities">Ass1: Renu</option> 
-<option value="ass1-sara-activities">Ass1: Sara</option> 
-<option value="ass1-shaun-activities">Ass1: Shaun</option> 
-<option value="ass1-shubham-activities">Ass1: Shubham</option> 
-<option value="ass1-sophia-activities">Ass1: Sophia</option> 
-<option value="ass1-taek-activities">Ass1: Taek</option> 
-<option value="ass2-anna-cameron-activities">Ass2: Anna</option> 
-<option value="ass2-hassan-shubham-activities">Ass2: Hassan</option> 
-<option value="ass2-ian-xavier-activities">Ass2: Ian-Xavier</option>
-<!--<option value="ass2-pablo-sophia-activities">Ass2: Pablo-Sophia</option> -->
-<option value="ass2-shubham-hassan-activities">Ass2: Shubham-Hassan</option> 
-<option value="ass2-taek-shaun-activities">Ass2: Teak-Shaun</option> 
-<option value="ass3-cameron-anna-activities">Ass3: Cameron-Anna</option> 
-<option value="ass3-shaun-taek-activities">Ass3: Shaun-Taek</option> 
-<option value="ass3-shubham-hassan-activities">Ass3: Shubham-Hassan</option> 
-<option value="ass3-sophia-pablo-activities">Ass3: Sophia-Pablo</option> 
-<option value="ass3-xavier-ian-activities">Ass3: Xavier-Ian</option></select>
-<button type="button" onclick="reloadData()">Load</button>
 
 </body>
 </html>
