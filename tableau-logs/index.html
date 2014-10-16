@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<style>
+
+.node {
+  cursor: pointer;
+}
+
+.node circle {
+  fill: #fff;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+
+.node text {
+  font: 10px sans-serif;
+}
+
+.link {
+  fill: none;
+  stroke: steelblue;
+  opacity: 0.3;
+  /*stroke-width: 1.5px;*/
+}
+
+</style>
+<body>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script>
+
+var margin = {top: 20, right: 120, bottom: 20, left: 120},
+    width = 960 - margin.right - margin.left,
+    height = 800 - margin.top - margin.bottom;
+    
+var i = 0,
+    duration = 750,
+    root;
+
+var tree = d3.layout.tree()
+    .size([height, width]);
+
+var edge_weight = d3.scale.linear()
+					.domain([0, 100])
+                    .range([0, 100]);
+
+var diagonal = d3.svg.diagonal()
+    .projection(function(d) { return [d.y, d.x]; });
+
+var svg = d3.select("body").append("svg")
+    .attr("width", width + margin.right + margin.left)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+d3.json("grams_full.json", function(error, flare) {
+  root = flare;
+  root.x0 = height / 2;
+  root.y0 = 0;
+
+  function collapse(d) {
+    if (d.children) {
+      d._children = d.children;
+      d._children.forEach(collapse);
+      d.children = null;
+    }
+  }
+
+  root.children.forEach(collapse);
+  update(root);
+});
+
+d3.select(self.frameElement).style("height", "800px");
+
+function update(source) {
+
+  // Compute the new tree layout.
+  var nodes = tree.nodes(root).reverse(),
+      links = tree.links(nodes);
+
+  // Normalize for fixed-depth.
+  nodes.forEach(function(d) { d.y = d.depth * 180; });
+
+  // Update the nodes…
+  var node = svg.selectAll("g.node")
+      .data(nodes, function(d) { return d.id || (d.id = ++i); });
+
+  // Enter any new nodes at the parent's previous position.
+  var nodeEnter = node.enter().append("g")
+      .attr("class", "node")
+      .attr("transform", function(d) { return "translate(" + source.y0 + "," + source.x0 + ")"; })
+      .on("click", click);
+
+  nodeEnter.append("circle")
+      .attr("r", 1e-6)
+      .style("fill", function(d) { return d._children ? "lightsteelblue" : "#fff"; });
+
+  nodeEnter.append("text")
+      .attr("x", function(d) { return d.children || d._children ? -10 : 10; })
+      .attr("dy", ".35em")
+      .attr("text-anchor", function(d) { return d.children || d._children ? "end" : "start"; })
+      .text(function(d) { return d.key; })
+      .style("fill-opacity", 1e-6);
+
+  // Transition nodes to their new position.
+  var nodeUpdate = node.transition()
+      .duration(duration)
+      .attr("transform", function(d) { return "translate(" + d.y + "," + d.x + ")"; });
+
+  nodeUpdate.select("circle")
+      .attr("r", function(d){ return edge_weight(d.size/2);})
+      .style("fill", function(d) { 
+      return d._children ? "lightsteelblue" : "#fff"; });
+
+  nodeUpdate.select("text")
+      .style("fill-opacity", 1);
+
+  // Transition exiting nodes to the parent's new position.
+  var nodeExit = node.exit().transition()
+      .duration(duration)
+      .attr("transform", function(d) { return "translate(" + source.y + "," + source.x + ")"; })
+      .remove();
+
+  nodeExit.select("circle")
+      .attr("r", 1e-6);
+
+  nodeExit.select("text")
+      .style("fill-opacity", 1e-6);
+
+  // Update the links…
+  var link = svg.selectAll("path.link")
+      .data(links, function(d) { return d.target.id; });
+
+  // Enter any new links at the parent's previous position.
+  link.enter().insert("path", "g")
+      .attr("class", "link")
+      .attr("stroke-width", function(d){
+      	return edge_weight(d.target.size);
+      })
+      .attr("d", function(d) {
+        var o = {x: source.x0, y: source.y0};
+        return diagonal({source: o, target: o});
+      });
+
+  // Transition links to their new position.
+  link.transition()
+      .duration(duration)
+      .attr("d", diagonal);
+
+  // Transition exiting nodes to the parent's new position.
+  link.exit().transition()
+      .duration(duration)
+      .attr("d", function(d) {
+        var o = {x: source.x, y: source.y};
+        return diagonal({source: o, target: o});
+      })
+      .remove();
+
+  // Stash the old positions for transition.
+  nodes.forEach(function(d) {
+    d.x0 = d.x;
+    d.y0 = d.y;
+  });
+}
+
+// Toggle children on click.
+function click(d) {
+  if (d.children) {
+    d._children = d.children;
+    d.children = null;
+  } else {
+    d.children = d._children;
+    d._children = null;
+  }
+  update(d);
+}
+
+function reloadData(){
+//	console.log('reload data');
+	var levels = document.getElementById("levels");
+	var level_val = levels.options[levels.selectedIndex].value;
+	
+	var ass_element = document.getElementById("assignment");
+	var ass_val = ass_element.options[ass_element.selectedIndex].value;
+	
+	var file_name = 'assignment/'+ass_val+'-level-'+level_val+'.json';
+//	ass1-anna-activities-level-1.json
+	console.log(file_name);
+//	console.log(document.getElementById("assignment").selectedIndex);
+
+	d3.json(file_name, function(error, flare) {
+	console.log(flare);
+	edge_weight.domain([0,flare.size]);
+	  root = flare;
+	  root.x0 = height / 2;
+	  root.y0 = 0;
+	
+	  function collapse(d) {
+	    if (d.children) {
+	      d._children = d.children;
+	      d._children.forEach(collapse);
+	      d.children = null;
+	    }
+	  }
+	
+	  root.children.forEach(collapse);
+	  update(root);
+	});
+	
+}
+</script>
+<select id='levels'>
+  <option value=1>Level 1</option>
+  <option value=2>Level 2</option>
+  <option value=3>Level 3</option>
+</select>
+<select id='assignment'>
+<option value="ass1-anna-activities">Ass1: Anna</option> 
+<option value="ass1-cameron-1-activities">Ass1: Cameron 1</option> 
+<option value="ass1-cameron-2-activities">Ass1: Cameron 2</option> 
+<option value="ass1-hassan-activities">Ass1: Hassan </option> 
+<option value="ass1-ian-activities">Ass1: Ian</option> 
+<option value="ass1-jenny-activities">Ass1: Jenny</option> 
+<option value="ass1-renu-activities">Ass1: Renu</option> 
+<option value="ass1-sara-activities">Ass1: Sara</option> 
+<option value="ass1-shaun-activities">Ass1: Shaun</option> 
+<option value="ass1-shubham-activities">Ass1: Shubham</option> 
+<option value="ass1-sophia-activities">Ass1: Sophia</option> 
+<option value="ass1-taek-activities">Ass1: Taek</option> 
+<option value="ass2-anna-cameron-activities">Ass2: Anna</option> 
+<option value="ass2-hassan-shubham-activities">Ass2: Hassan</option> 
+<option value="ass2-ian-xavier-activities">Ass2: Ian-Xavier</option>
+<!--<option value="ass2-pablo-sophia-activities">Ass2: Pablo-Sophia</option> -->
+<option value="ass2-shubham-hassan-activities">Ass2: Shubham-Hassan</option> 
+<option value="ass2-taek-shaun-activities">Ass2: Teak-Shaun</option> 
+<option value="ass3-cameron-anna-activities">Ass3: Cameron-Anna</option> 
+<option value="ass3-shaun-taek-activities">Ass3: Shaun-Taek</option> 
+<option value="ass3-shubham-hassan-activities">Ass3: Shubham-Hassan</option> 
+<option value="ass3-sophia-pablo-activities">Ass3: Sophia-Pablo</option> 
+<option value="ass3-xavier-ian-activities">Ass3: Xavier-Ian</option></select>
+<button type="button" onclick="reloadData()">Load</button>
+
+</body>
+</html>
