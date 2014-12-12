@@ -1,0 +1,1199 @@
+{
+	"name" : "Taxonomy Tree",
+	"children" : [
+		{
+			"colorCode" : "App Actions",
+			"name" : "App Actions",
+			"children" : [
+				{
+					"colorCode" : "App Actions",
+					"name" : "Datasource Actions",
+					"children" : [
+						{
+							"colorCode" : "App Actions",
+							"name" : "Analyze",
+							"children" : [
+								{
+									"colorCode" : "App Actions",
+									"name" : "tabdoc:show-me"
+								}
+							]
+						},
+						{
+							"colorCode" : "App Actions",
+							"name" : "Connect",
+							"children" : [
+								{
+									"colorCode" : "App Actions",
+									"name" : "tabui:save-workbook"
+								},
+								{
+									"colorCode" : "App Actions",
+									"name" : "tabdoc:set-sheet-formatting"
+								},
+								{
+									"colorCode" : "App Actions",
+									"name" : "tabdoc:move-free-form-zone"
+								}
+							]
+						},
+						{
+							"colorCode" : "App Actions",
+							"name" : "Extract",
+							"children" : [
+								{
+									"colorCode" : "App Actions",
+									"name" : "tabui:connection-analyze-data-ui"
+								},
+								{
+									"colorCode" : "App Actions",
+									"name" : "tabui:upgrade-datasources-ui"
+								}
+							]
+						},
+						{
+							"colorCode" : "App Actions",
+							"name" : "Reconnect",
+							"children" : [
+								{
+									"colorCode" : "App Actions",
+									"name" : "tabdoc:set-default-color"
+								}
+							]
+						},
+						{
+							"colorCode" : "App Actions",
+							"name" : "Refresh",
+							"children" : [
+								{
+									"colorCode" : "App Actions",
+									"name" : "tabui:view-quick-filters"
+								}
+							]
+						}
+					]
+				},
+				{
+					"colorCode" : "App Actions",
+					"name" : "Document Actions",
+					"children" : [
+						{
+							"colorCode" : "App Actions",
+							"name" : "Close",
+							"children" : [
+								{
+									"colorCode" : "App Actions",
+									"name" : "tabdoc:move-dashboard-edge"
+								}
+							]
+						},
+						{
+							"colorCode" : "App Actions",
+							"name" : "Exit",
+							"children" : [
+								{
+									"colorCode" : "App Actions",
+									"name" : "tabdoc:move-zone"
+								}
+							]
+						},
+						{
+							"colorCode" : "App Actions",
+							"name" : "Export",
+							"children" : [
+								{
+									"colorCode" : "App Actions",
+									"name" : "tabui:presentation-mode"
+								},
+								{
+									"colorCode" : "App Actions",
+									"name" : "tabdoc:resize-cell"
+								}
+							]
+						},
+						{
+							"colorCode" : "App Actions",
+							"name" : "Import",
+							"children" : [
+								{
+									"colorCode" : "App Actions",
+									"name" : "tabdoc:extract"
+								}
+							]
+						},
+						{
+							"colorCode" : "App Actions",
+							"name" : "Publish",
+							"children" : [
+								{
+									"colorCode" : "App Actions",
+									"name" : "tabui:view-dashboard-title"
+								}
+							]
+						},
+						{
+							"colorCode" : "App Actions",
+							"name" : "Rename",
+							"children" : [
+								{
+									"colorCode" : "App Actions",
+									"name" : "tabui:format-label"
+								}
+							]
+						},
+						{
+							"colorCode" : "App Actions",
+							"name" : "Save",
+							"children" : [
+								{
+									"colorCode" : "App Actions",
+									"name" : "tabui:extract-ui"
+								},
+								{
+									"colorCode" : "App Actions",
+									"name" : "tabui:rename-datasource"
+								},
+								{
+									"colorCode" : "App Actions",
+									"name" : "tabui:format-axis-ui"
+								}
+							]
+						}
+					]
+				},
+				{
+					"colorCode" : "App Actions",
+					"name" : "Visual Display Actions",
+					"children" : [
+						{
+							"colorCode" : "App Actions",
+							"name" : "Format",
+							"children" : [
+								{
+									"colorCode" : "App Actions",
+									"name" : "tabui:connect-datasource"
+								},
+								{
+									"colorCode" : "App Actions",
+									"name" : "tabdoc:resize-header"
+								},
+								{
+									"colorCode" : "App Actions",
+									"name" : "tabdoc:set-item-color"
+								},
+								{
+									"colorCode" : "App Actions",
+									"name" : "tabdoc:select-all"
+								},
+								{
+									"colorCode" : "App Actions",
+									"name" : "tabui:connection-add-new-table-ui"
+								},
+								{
+									"colorCode" : "App Actions",
+									"name" : "tabdoc:toggle-freeform-zone"
+								},
+								{
+									"colorCode" : "App Actions",
+									"name" : "tabdoc:change-size"
+								},
+								{
+									"colorCode" : "App Actions",
+									"name" : "tabui:show-quickfilter"
+								},
+								{
+									"colorCode" : "App Actions",
+									"name" : "tabui:format-ui"
+								},
+								{
+									"colorCode" : "App Actions",
+									"name" : "tabdoc:set-dashboard-size"
+								},
+								{
+									"colorCode" : "App Actions",
+									"name" : "tabui:edit-datasource"
+								}
+							]
+						},
+						{
+							"colorCode" : "App Actions",
+							"name" : "Move",
+							"children" : [
+								{
+									"colorCode" : "App Actions",
+									"name" : "tabui:export-workbook-sheets-ui"
+								},
+								{
+									"colorCode" : "App Actions",
+									"name" : "tabui:view-caption-card"
+								},
+								{
+									"colorCode" : "App Actions",
+									"name" : "tabui:exit-application"
+								},
+								{
+									"colorCode" : "App Actions",
+									"name" : "tabdoc:resize-point-annotation"
+								},
+								{
+									"colorCode" : "App Actions",
+									"name" : "tabui:save-as-workbook"
+								}
+							]
+						},
+						{
+							"colorCode" : "App Actions",
+							"name" : "Reorder",
+							"children" : [
+								{
+									"colorCode" : "App Actions",
+									"name" : "tabdoc:move-point-annotation"
+								}
+							]
+						},
+						{
+							"colorCode" : "App Actions",
+							"name" : "Resize",
+							"children" : [
+								{
+									"colorCode" : "App Actions",
+									"name" : "tabui:show-field-format-ui"
+								},
+								{
+									"colorCode" : "App Actions",
+									"name" : "tabui:view-card"
+								},
+								{
+									"colorCode" : "App Actions",
+									"name" : "tabui:format-field-label-ui"
+								},
+								{
+									"colorCode" : "App Actions",
+									"name" : "tabui:set-default-text-format-ui"
+								},
+								{
+									"colorCode" : "App Actions",
+									"name" : "tabdoc:resize-axis"
+								},
+								{
+									"colorCode" : "App Actions",
+									"name" : "tabdoc:show-legend-on-dashboard"
+								},
+								{
+									"colorCode" : "App Actions",
+									"name" : "tabui:view-legend"
+								}
+							]
+						},
+						{
+							"colorCode" : "App Actions",
+							"name" : "Select",
+							"children" : [
+								{
+									"colorCode" : "App Actions",
+									"name" : "tabui:format-legends-ui"
+								},
+								{
+									"colorCode" : "App Actions",
+									"name" : "tabui:select-parent-zone"
+								},
+								{
+									"colorCode" : "App Actions",
+									"name" : "tabui:toggle-filmstrip-ui"
+								}
+							]
+						},
+						{
+							"colorCode" : "App Actions",
+							"name" : "Show",
+							"children" : [
+								{
+									"colorCode" : "App Actions",
+									"name" : "tabui:view-rows-shelf"
+								},
+								{
+									"colorCode" : "App Actions",
+									"name" : "tabui:view-summary-card"
+								},
+								{
+									"colorCode" : "App Actions",
+									"name" : "tabui:refresh-datasource"
+								},
+								{
+									"colorCode" : "App Actions",
+									"name" : "tabui:close-datasource"
+								},
+								{
+									"colorCode" : "App Actions",
+									"name" : "tabui:export-packaged"
+								},
+								{
+									"colorCode" : "App Actions",
+									"name" : "tabui:import-workbook-ui"
+								},
+								{
+									"colorCode" : "App Actions",
+									"name" : "tabui:publish-workbook-to-workgroup"
+								},
+								{
+									"colorCode" : "App Actions",
+									"name" : "tabui:save-public"
+								}
+							]
+						},
+						{
+							"colorCode" : "App Actions",
+							"name" : "View",
+							"children" : [
+								{
+									"colorCode" : "App Actions",
+									"name" : "tabdoc:change-label-font"
+								},
+								{
+									"colorCode" : "App Actions",
+									"name" : "tabui:change-tab-color-sheet"
+								},
+								{
+									"colorCode" : "App Actions",
+									"name" : "tabui:add-to-schema-field-folder-ui"
+								},
+								{
+									"colorCode" : "App Actions",
+									"name" : "tabdoc:resize-area-annotation-text"
+								},
+								{
+									"colorCode" : "App Actions",
+									"name" : "tabdoc:select-fields-in-shelf"
+								},
+								{
+									"colorCode" : "App Actions",
+									"name" : "tabdoc:show-hidden-fields"
+								},
+								{
+									"colorCode" : "App Actions",
+									"name" : "tabui:show-connect-tab"
+								},
+								{
+									"colorCode" : "App Actions",
+									"name" : "tabui:show-in-out-sets"
+								},
+								{
+									"colorCode" : "App Actions",
+									"name" : "tabui:show-quickfilter-ui"
+								},
+								{
+									"colorCode" : "App Actions",
+									"name" : "tabui:show-cat-ctrl-quick-filter"
+								},
+								{
+									"colorCode" : "App Actions",
+									"name" : "tabui:view-datasource-data"
+								},
+								{
+									"colorCode" : "App Actions",
+									"name" : "tabui:view-title-card"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"colorCode" : "Exploration Actions",
+			"name" : "Exploration Actions",
+			"children" : [
+				{
+					"colorCode" : "Exploration Actions",
+					"name" : "Data Exploration Actions",
+					"children" : [
+						{
+							"colorCode" : "Exploration Actions",
+							"name" : "Aggregate",
+							"children" : [
+								{
+									"colorCode" : "Exploration Actions",
+									"name" : "tabui:drop-ui"
+								},
+								{
+									"colorCode" : "Exploration Actions",
+									"name" : "tabdoc:select-legend-item"
+								}
+							]
+						},
+						{
+							"colorCode" : "Exploration Actions",
+							"name" : "Calculate",
+							"children" : [
+								{
+									"colorCode" : "Exploration Actions",
+									"name" : "tabdoc:filter-targets"
+								},
+								{
+									"colorCode" : "Exploration Actions",
+									"name" : "tabdoc:pane-zoom-factor"
+								},
+								{
+									"colorCode" : "Exploration Actions",
+									"name" : "tabdoc:quantitative-quick-filter-edit"
+								},
+								{
+									"colorCode" : "Exploration Actions",
+									"name" : "tabdoc:clear-legend-selection"
+								},
+								{
+									"colorCode" : "Exploration Actions",
+									"name" : "tabui:create-calculation-ui"
+								},
+								{
+									"colorCode" : "Exploration Actions",
+									"name" : "tabui:edit-filter-ui"
+								}
+							]
+						},
+						{
+							"colorCode" : "Exploration Actions",
+							"name" : "Filter",
+							"children" : [
+								{
+									"colorCode" : "Exploration Actions",
+									"name" : "tabui:view-data"
+								},
+								{
+									"colorCode" : "Exploration Actions",
+									"name" : "tabdoc:update-mark-labels-settings"
+								},
+								{
+									"colorCode" : "Exploration Actions",
+									"name" : "tabui:edit-axis-ui"
+								},
+								{
+									"colorCode" : "Exploration Actions",
+									"name" : "tabdoc:aggregate-measures"
+								},
+								{
+									"colorCode" : "Exploration Actions",
+									"name" : "tabui:sort-ui"
+								},
+								{
+									"colorCode" : "Exploration Actions",
+									"name" : "tabdoc:add-to-sheet"
+								},
+								{
+									"colorCode" : "Exploration Actions",
+									"name" : "tabdoc:zoom-level"
+								},
+								{
+									"colorCode" : "Exploration Actions",
+									"name" : "tabdoc:add-object-to-dashboard"
+								},
+								{
+									"colorCode" : "Exploration Actions",
+									"name" : "tabdoc:master-detail-filter"
+								},
+								{
+									"colorCode" : "Exploration Actions",
+									"name" : "tabdoc:select-legend-items"
+								},
+								{
+									"colorCode" : "Exploration Actions",
+									"name" : "tabdoc:update-selection-delta"
+								},
+								{
+									"colorCode" : "Exploration Actions",
+									"name" : "tabui:table-calc-ui"
+								},
+								{
+									"colorCode" : "Exploration Actions",
+									"name" : "tabui:describe-field-ui"
+								},
+								{
+									"colorCode" : "Exploration Actions",
+									"name" : "tabdoc:quick-sort"
+								},
+								{
+									"colorCode" : "Exploration Actions",
+									"name" : "tabdoc:legend-group-or-ungroup"
+								},
+								{
+									"colorCode" : "Exploration Actions",
+									"name" : "tabui:display-encoding-type-menu"
+								},
+								{
+									"colorCode" : "Exploration Actions",
+									"name" : "tabdoc:reorder-legend-items"
+								}
+							]
+						},
+						{
+							"colorCode" : "Exploration Actions",
+							"name" : "Group",
+							"children" : [
+								{
+									"colorCode" : "Exploration Actions",
+									"name" : "tabdoc:ungroup-layout-container"
+								},
+								{
+									"colorCode" : "Exploration Actions",
+									"name" : "tabui:domain-quick-filter"
+								},
+								{
+									"colorCode" : "Exploration Actions",
+									"name" : "tabui:edit-datasource-filters-ui"
+								},
+								{
+									"colorCode" : "Exploration Actions",
+									"name" : "tabui:edit-filter-quick-filter"
+								}
+							]
+						},
+						{
+							"colorCode" : "Exploration Actions",
+							"name" : "Inspect",
+							"children" : [
+								{
+									"colorCode" : "Exploration Actions",
+									"name" : "tabdoc:pane-zoom"
+								},
+								{
+									"colorCode" : "Exploration Actions",
+									"name" : "tabui:add-to-sheet-ui"
+								},
+								{
+									"colorCode" : "Exploration Actions",
+									"name" : "tabui:custom-date-aggregation-ui"
+								},
+								{
+									"colorCode" : "Exploration Actions",
+									"name" : "tabui:cat-mode-quick-filter"
+								}
+							]
+						},
+						{
+							"colorCode" : "Exploration Actions",
+							"name" : "Query",
+							"children" : [
+								{
+									"colorCode" : "Exploration Actions",
+									"name" : "tabui:include-exclude-values-quick-filter"
+								},
+								{
+									"colorCode" : "Exploration Actions",
+									"name" : "tabui:set-filter-shared-ui"
+								},
+								{
+									"colorCode" : "Exploration Actions",
+									"name" : "tabui:reset-cards"
+								},
+								{
+									"colorCode" : "Exploration Actions",
+									"name" : "tabdoc:change-markers"
+								},
+								{
+									"colorCode" : "Exploration Actions",
+									"name" : "tabdoc:pane-zoom-pan"
+								},
+								{
+									"colorCode" : "Exploration Actions",
+									"name" : "tabui:sort-field-label-ui"
+								},
+								{
+									"colorCode" : "Exploration Actions",
+									"name" : "tabdoc:zoom-controls-toggle"
+								},
+								{
+									"colorCode" : "Exploration Actions",
+									"name" : "tabui:trend-lines-ui"
+								}
+							]
+						},
+						{
+							"colorCode" : "Exploration Actions",
+							"name" : "Restore",
+							"children" : [
+								{
+									"colorCode" : "Exploration Actions",
+									"name" : "tabdoc:legend-keep-or-exclude"
+								},
+								{
+									"colorCode" : "Exploration Actions",
+									"name" : "tabdoc:relative-date-quick-filter-edit"
+								},
+								{
+									"colorCode" : "Exploration Actions",
+									"name" : "tabdoc:set-filter-context"
+								},
+								{
+									"colorCode" : "Exploration Actions",
+									"name" : "tabdoc:set-filter-shared"
+								},
+								{
+									"colorCode" : "Exploration Actions",
+									"name" : "tabdoc:group-by-table"
+								}
+							]
+						}
+					]
+				},
+				{
+					"colorCode" : "Exploration Actions",
+					"name" : "Visual Exploration Action",
+					"children" : [
+						{
+							"colorCode" : "Exploration Actions",
+							"name" : "Brush",
+							"children" : [
+								{
+									"colorCode" : "Exploration Actions",
+									"name" : "tabui:change-aggregation-ui"
+								},
+								{
+									"colorCode" : "Exploration Actions",
+									"name" : "tabdoc:drop-on-dashboard"
+								},
+								{
+									"colorCode" : "Exploration Actions",
+									"name" : "tabdoc:highlight"
+								},
+								{
+									"colorCode" : "Exploration Actions",
+									"name" : "tabdoc:sort-from-indicator"
+								}
+							]
+						},
+						{
+							"colorCode" : "Exploration Actions",
+							"name" : "Change Metaphor",
+							"children" : [
+								{
+									"colorCode" : "Exploration Actions",
+									"name" : "tabdoc:toggle-legend-item-selection"
+								},
+								{
+									"colorCode" : "Exploration Actions",
+									"name" : "tabdoc:keep-only-or-exclude"
+								},
+								{
+									"colorCode" : "Exploration Actions",
+									"name" : "tabui:color-legend-edit-ui"
+								},
+								{
+									"colorCode" : "Exploration Actions",
+									"name" : "tabui:edit-schema-calculation-ui"
+								},
+								{
+									"colorCode" : "Exploration Actions",
+									"name" : "tabdoc:swap-rows-and-columns"
+								},
+								{
+									"colorCode" : "Exploration Actions",
+									"name" : "tabui:scroll-sheet"
+								},
+								{
+									"colorCode" : "Exploration Actions",
+									"name" : "tabui:table-calc-ordering-ui"
+								},
+								{
+									"colorCode" : "Exploration Actions",
+									"name" : "tabdoc:mark-label"
+								},
+								{
+									"colorCode" : "Exploration Actions",
+									"name" : "tabui:quick-table-calc-ui"
+								}
+							]
+						},
+						{
+							"colorCode" : "Exploration Actions",
+							"name" : "Pan",
+							"children" : [
+								{
+									"colorCode" : "Exploration Actions",
+									"name" : "tabui:edit-schema-categorical-bins-ui"
+								},
+								{
+									"colorCode" : "Exploration Actions",
+									"name" : "tabui:edit-schema-numeric-bins-ui"
+								},
+								{
+									"colorCode" : "Exploration Actions",
+									"name" : "tabui:sort-descending-field-label-ui"
+								}
+							]
+						},
+						{
+							"colorCode" : "Exploration Actions",
+							"name" : "Sort",
+							"children" : [
+								{
+									"colorCode" : "Exploration Actions",
+									"name" : "tabdoc:clear-quick-filter"
+								},
+								{
+									"colorCode" : "Exploration Actions",
+									"name" : "tabui:clear-viz-ui"
+								},
+								{
+									"colorCode" : "Exploration Actions",
+									"name" : "tabui:shape-legend-edit-ui"
+								},
+								{
+									"colorCode" : "Exploration Actions",
+									"name" : "tabui:sheet-sorter"
+								},
+								{
+									"colorCode" : "Exploration Actions",
+									"name" : "tabdoc:rotate-label"
+								},
+								{
+									"colorCode" : "Exploration Actions",
+									"name" : "tabdoc:on-toggle-axis-ranges"
+								},
+								{
+									"colorCode" : "Exploration Actions",
+									"name" : "tabdoc:toggle-drop-lines"
+								},
+								{
+									"colorCode" : "Exploration Actions",
+									"name" : "tabdoc:add-sheet-to-dashboard"
+								}
+							]
+						},
+						{
+							"colorCode" : "Exploration Actions",
+							"name" : "Split",
+							"children" : [
+								{
+									"colorCode" : "Exploration Actions",
+									"name" : "tabui:add-reference-line-ui"
+								}
+							]
+						},
+						{
+							"colorCode" : "Exploration Actions",
+							"name" : "Zoom",
+							"children" : [
+								{
+									"colorCode" : "Exploration Actions",
+									"name" : "tabdoc:quantitative-mode-quick-filter"
+								},
+								{
+									"colorCode" : "Exploration Actions",
+									"name" : "tabui:edit-title-quick-filter"
+								},
+								{
+									"colorCode" : "Exploration Actions",
+									"name" : "tabui:clear-sheet-ui"
+								},
+								{
+									"colorCode" : "Exploration Actions",
+									"name" : "tabui:sort-ascending-field-label-ui"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"colorCode" : "Insight Actions",
+			"name" : "Insight Actions",
+			"children" : [
+				{
+					"colorCode" : "Insight Actions",
+					"name" : "Visual Insight Actions",
+					"children" : [
+						{
+							"colorCode" : "Insight Actions",
+							"name" : "Annotate",
+							"children" : [
+								{
+									"colorCode" : "Insight Actions",
+									"name" : "tabdoc:rename-sheet"
+								},
+								{
+									"colorCode" : "Insight Actions",
+									"name" : "tabdoc:remove-fields"
+								},
+								{
+									"colorCode" : "Insight Actions",
+									"name" : "tabui:hide-zone-ui"
+								},
+								{
+									"colorCode" : "Insight Actions",
+									"name" : "tabui:edit-zone-param"
+								},
+								{
+									"colorCode" : "Insight Actions",
+									"name" : "tabui:reorder-sheets-ui"
+								},
+								{
+									"colorCode" : "Insight Actions",
+									"name" : "tabui:edit-title"
+								},
+								{
+									"colorCode" : "Insight Actions",
+									"name" : "tabui:edit-caption"
+								},
+								{
+									"colorCode" : "Insight Actions",
+									"name" : "tabdoc:hide-field"
+								}
+							]
+						},
+						{
+							"colorCode" : "Insight Actions",
+							"name" : "Bookmark",
+							"children" : [
+								{
+									"colorCode" : "Insight Actions",
+									"name" : "tabui:rename-sheet-ui"
+								},
+								{
+									"colorCode" : "Insight Actions",
+									"name" : "tabui:create-categorical-bins-ui"
+								},
+								{
+									"colorCode" : "Insight Actions",
+									"name" : "tabdoc:update-area-annotation"
+								},
+								{
+									"colorCode" : "Insight Actions",
+									"name" : "tabui:edit-schema-caption-ui"
+								},
+								{
+									"colorCode" : "Insight Actions",
+									"name" : "tabui:create-numeric-bins-ui"
+								}
+							]
+						}
+					]
+				},
+				{
+					"colorCode" : "Insight Actions",
+					"name" : "Knowledge Insight Actions",
+					"children" : [
+						{
+							"colorCode" : "Insight Actions",
+							"name" : "Create",
+							"children" : [
+								{
+									"colorCode" : "Insight Actions",
+									"name" : "tabui:annotate-ui"
+								},
+								{
+									"colorCode" : "Insight Actions",
+									"name" : "tabui:edit-text"
+								},
+								{
+									"colorCode" : "Insight Actions",
+									"name" : "tabui:edit-reference-line"
+								},
+								{
+									"colorCode" : "Insight Actions",
+									"name" : "tabdoc:edit-story-point-caption"
+								},
+								{
+									"colorCode" : "Insight Actions",
+									"name" : "tabui:set-default-location-ui"
+								},
+								{
+									"colorCode" : "Insight Actions",
+									"name" : "tabui:edit-annotation"
+								},
+								{
+									"colorCode" : "Insight Actions",
+									"name" : "tabdoc:set-active-story-point"
+								},
+								{
+									"colorCode" : "Insight Actions",
+									"name" : "tabdoc:hide-label"
+								}
+							]
+						},
+						{
+							"colorCode" : "Insight Actions",
+							"name" : "hide",
+							"children" : [
+								{
+									"colorCode" : "Insight Actions",
+									"name" : "tabui:actions-edit-dashboard"
+								},
+								{
+									"colorCode" : "Insight Actions",
+									"name" : "tabdoc:hide-column-field-label"
+								},
+								{
+									"colorCode" : "Insight Actions",
+									"name" : "tabui:replace-story-point-ui"
+								},
+								{
+									"colorCode" : "Insight Actions",
+									"name" : "tabui:remove-annotation"
+								},
+								{
+									"colorCode" : "Insight Actions",
+									"name" : "tabdoc:duplicate-fields"
+								},
+								{
+									"colorCode" : "Insight Actions",
+									"name" : "tabui:create-group-selection-ui"
+								}
+							]
+						},
+						{
+							"colorCode" : "Insight Actions",
+							"name" : "Modify",
+							"children" : [
+								{
+									"colorCode" : "Insight Actions",
+									"name" : "tabui:create-parameter-ui"
+								},
+								{
+									"colorCode" : "Insight Actions",
+									"name" : "tabui:show-me-hide-ui"
+								},
+								{
+									"colorCode" : "Insight Actions",
+									"name" : "tabui:delete-story-point-ui"
+								},
+								{
+									"colorCode" : "Insight Actions",
+									"name" : "tabdoc:insert-story-point"
+								},
+								{
+									"colorCode" : "Insight Actions",
+									"name" : "tabui:create-group-ui"
+								}
+							]
+						},
+						{
+							"colorCode" : "Insight Actions",
+							"name" : "Remove",
+							"children" : [
+								{
+									"colorCode" : "Insight Actions",
+									"name" : "tabui:create-set-ui"
+								},
+								{
+									"colorCode" : "Insight Actions",
+									"name" : "tabui:hide-title"
+								},
+								{
+									"colorCode" : "Insight Actions",
+									"name" : "tabdoc:remove-field-label"
+								},
+								{
+									"colorCode" : "Insight Actions",
+									"name" : "tabui:remove-mru"
+								},
+								{
+									"colorCode" : "Insight Actions",
+									"name" : "tabdoc:update-point-annotation-pullback"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"colorCode" : "Meta Actions",
+			"name" : "Meta Actions",
+			"children" : [
+				{
+					"colorCode" : "Meta Actions",
+					"name" : "Meta_Actions",
+					"children" : [
+						{
+							"colorCode" : "Meta Actions",
+							"name" : "Copy",
+							"children" : [
+								{
+									"colorCode" : "Meta Actions",
+									"name" : "tabdoc:undo"
+								},
+								{
+									"colorCode" : "Meta Actions",
+									"name" : "tabdoc:set-primitive"
+								}
+							]
+						},
+						{
+							"colorCode" : "Meta Actions",
+							"name" : "Delete",
+							"children" : [
+								{
+									"colorCode" : "Meta Actions",
+									"name" : "tabdoc:redo"
+								},
+								{
+									"colorCode" : "Meta Actions",
+									"name" : "tabui:delete-sheet-ui"
+								},
+								{
+									"colorCode" : "Meta Actions",
+									"name" : "tabdoc:change-semantic-role"
+								},
+								{
+									"colorCode" : "Meta Actions",
+									"name" : "tabui:change-field-type-ui"
+								}
+							]
+						},
+						{
+							"colorCode" : "Meta Actions",
+							"name" : "Edit",
+							"children" : [
+								{
+									"colorCode" : "Meta Actions",
+									"name" : "tabui:delete-fields-ui"
+								},
+								{
+									"colorCode" : "Meta Actions",
+									"name" : "tabdoc:change-data-type"
+								},
+								{
+									"colorCode" : "Meta Actions",
+									"name" : "tabdoc:convert-to-dimension"
+								},
+								{
+									"colorCode" : "Meta Actions",
+									"name" : "tabui:copy-image-dashboard"
+								},
+								{
+									"colorCode" : "Meta Actions",
+									"name" : "tabui:copy-image-worksheet"
+								},
+								{
+									"colorCode" : "Meta Actions",
+									"name" : "tabui:paste"
+								},
+								{
+									"colorCode" : "Meta Actions",
+									"name" : "tabdoc:convert-to-discrete"
+								},
+								{
+									"colorCode" : "Meta Actions",
+									"name" : "tabui:edit-parameter"
+								},
+								{
+									"colorCode" : "Meta Actions",
+									"name" : "tabdoc:convert-to-measure"
+								},
+								{
+									"colorCode" : "Meta Actions",
+									"name" : "tabui:edit-default-sort-ui"
+								}
+							]
+						},
+						{
+							"colorCode" : "Meta Actions",
+							"name" : "Paste",
+							"children" : [
+								{
+									"colorCode" : "Meta Actions",
+									"name" : "tabui:replace-field-ui"
+								}
+							]
+						},
+						{
+							"colorCode" : "Meta Actions",
+							"name" : "Redo",
+							"children" : [
+								{
+									"colorCode" : "Meta Actions",
+									"name" : "tabui:deactivate-dashboard"
+								}
+							]
+						},
+						{
+							"colorCode" : "Meta Actions",
+							"name" : "Undo",
+							"children" : [
+								{
+									"colorCode" : "Meta Actions",
+									"name" : "tabui:reset-caption-ui"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"colorCode" : "Task Actions",
+			"name" : "Task Actions",
+			"children" : [
+				{
+					"colorCode" : "Task Actions",
+					"name" : "Task_Actions",
+					"children" : [
+						{
+							"colorCode" : "Task Actions",
+							"name" : "goto",
+							"children" : [
+								{
+									"colorCode" : "Task Actions",
+									"name" : "tabui:new-worksheet-ui"
+								}
+							]
+						},
+						{
+							"colorCode" : "Task Actions",
+							"name" : "New",
+							"children" : [
+								{
+									"colorCode" : "Task Actions",
+									"name" : "tabui:duplicate-sheet-ui"
+								},
+								{
+									"colorCode" : "Task Actions",
+									"name" : "tabui:document"
+								},
+								{
+									"colorCode" : "Task Actions",
+									"name" : "tabui:new-dashboard-ui"
+								},
+								{
+									"colorCode" : "Task Actions",
+									"name" : "tabui:duplicate-sheet-or-crosstab-ui"
+								},
+								{
+									"colorCode" : "Task Actions",
+									"name" : "tabui:open-workbook"
+								},
+								{
+									"colorCode" : "Task Actions",
+									"name" : "tabui:new-storyboard-ui"
+								},
+								{
+									"colorCode" : "Task Actions",
+									"name" : "tabui:new-workbook"
+								},
+								{
+									"colorCode" : "Task Actions",
+									"name" : "tabdoc:goto-sheet"
+								},
+								{
+									"colorCode" : "Task Actions",
+									"name" : "tabdoc:new-blank-story-point"
+								}
+							]
+						},
+						{
+							"colorCode" : "Task Actions",
+							"name" : "Open",
+							"children" : [
+								{
+									"colorCode" : "Task Actions",
+									"name" : "tabui:new-schema-drill-path-ui"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
